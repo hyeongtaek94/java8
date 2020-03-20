@@ -1,0 +1,13 @@
+package java8;
+
+public class Day0603 {
+	public static void main(String[] args) {
+		for(int i = 0 ; i < 10 ; i++) {	//for문의 가장 기본식
+			System.out.println(i);
+		}
+		
+		for(int i = 0 ; i <5 ; i++) {
+			System.out.println("hello!");
+		}
+	}
+}
