@@ -14,9 +14,9 @@ public class Grade {
 	}
 	
 	//¸Ş¼­µå
-	double avg() {
+	int avg() {
 		int sum = kor + eng + mat;
-		return sum / 3.0;
+		return (int) (sum / 3.0);
 	}
 	
 }
